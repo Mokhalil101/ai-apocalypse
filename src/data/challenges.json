@@ -1,0 +1,16 @@
+[
+  { "id": "AI-101", "title": "Paradigms of Machine Learning", "category": "Artificial Intelligence", "difficulty": "easy", "type": "multiple_choice", "correctAnswer": "Supervised Learning" },
+  { "id": "AI-102", "title": "Reinforcement Learning Feedback", "category": "Artificial Intelligence", "difficulty": "easy", "type": "true_false", "correctAnswer": "True" },
+  { "id": "AI-103", "title": "The Turing Test Criterion", "category": "Artificial Intelligence", "difficulty": "medium", "type": "multiple_choice" },
+  { "id": "ML-201", "title": "Diagnosing Model Overfitting", "category": "Machine Learning", "difficulty": "medium", "type": "multiple_choice" },
+  { "id": "ML-202", "title": "Precision vs Recall Trade-off", "category": "Machine Learning", "difficulty": "hard", "type": "multiple_choice" },
+  { "id": "DL-301", "title": "Non-Linear Activation Functions", "category": "Deep Learning", "difficulty": "easy", "type": "multiple_choice" },
+  { "id": "DS-401", "title": "Correlation vs Causation", "category": "Data Science", "difficulty": "easy", "type": "true_false" },
+  { "id": "PROG-501", "title": "Predict Code Output: Drone Fuel Loop", "category": "Programming", "difficulty": "easy", "type": "predict_output" },
+  { "id": "DSA-601", "title": "Binary Search Time Complexity", "category": "Algorithms", "difficulty": "easy", "type": "multiple_choice" },
+  { "id": "NET-701", "title": "OSI Reference Model Layer Hierarchy", "category": "Networking", "difficulty": "medium", "type": "arrange_steps" },
+  { "id": "SEC-801", "title": "Symmetric vs Asymmetric Cryptography", "category": "Cybersecurity", "difficulty": "medium", "type": "multiple_choice" },
+  { "id": "BIN-901", "title": "Shelter Access Cipher (8-bit Binary)", "category": "Computer Science", "difficulty": "easy", "type": "binary_converter" },
+  { "id": "LOGIC-903", "title": "Security Circuit Logic Override", "category": "Computer Science", "difficulty": "medium", "type": "logic_gate" },
+  { "id": "CLI-905", "title": "Archive Database Recovery", "category": "Cybersecurity", "difficulty": "medium", "type": "terminal_cli" }
+]

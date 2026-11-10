@@ -1,0 +1,8 @@
+[
+  { "id": "m_level_1", "levelNumber": 1, "title": "Level 1: The Fallen City", "environment": "The Fallen City" },
+  { "id": "m_level_2", "levelNumber": 2, "title": "Level 2: The Machine Factory", "environment": "The Machine Factory" },
+  { "id": "m_level_3", "levelNumber": 3, "title": "Level 3: The Data Center", "environment": "The Data Center" },
+  { "id": "m_level_4", "levelNumber": 4, "title": "Level 4: The AI Research Lab", "environment": "The AI Research Lab" },
+  { "id": "m_level_5", "levelNumber": 5, "title": "Level 5: The Network Fortress", "environment": "The Network Fortress" },
+  { "id": "m_level_6", "levelNumber": 6, "title": "Level 6: NEXUS Core", "environment": "NEXUS Core" }
+]

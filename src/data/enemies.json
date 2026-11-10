@@ -1,0 +1,9 @@
+{
+  "scout_drone": { "id": "scout_drone", "name": "Aero-Scout Drone MK-II", "hp": 40, "speed": 155, "attackDamage": 10 },
+  "security_bot": { "id": "security_bot", "name": "Patrol Enforcer V4", "hp": 85, "speed": 110, "attackDamage": 16 },
+  "hunter_unit": { "id": "hunter_unit", "name": "Arachnid Hunter Model-X", "hp": 145, "speed": 180, "attackDamage": 24 },
+  "heavy_guardian": { "id": "heavy_guardian", "name": "Goliath Heavy Sentinel", "hp": 340, "speed": 72, "attackDamage": 38 },
+  "boss_assembler": { "id": "boss_assembler", "name": "ASSEMBLER OVERLORD", "hp": 800, "isBoss": true },
+  "boss_sentinel": { "id": "boss_sentinel", "name": "NEURAL CORE SENTINEL", "hp": 1300, "isBoss": true },
+  "boss_nexus_prime": { "id": "boss_nexus_prime", "name": "NEXUS PRIME GUARDIAN", "hp": 2200, "isBoss": true }
+}

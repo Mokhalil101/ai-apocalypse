@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "The Fallen City", "theme": "Urban Ruins & Overgrowth", "width": 2400, "height": 1800 },
+  { "id": 2, "name": "The Machine Factory", "theme": "Automated Heavy Industry", "width": 2600, "height": 1900 },
+  { "id": 3, "name": "The Data Center", "theme": "Quantum Server Vaults", "width": 2500, "height": 1900 },
+  { "id": 4, "name": "The AI Research Lab", "theme": "Synthetic Neural Laboratories", "width": 2600, "height": 1900 },
+  { "id": 5, "name": "The Network Fortress", "theme": "Cybersecurity Transmission Spire", "width": 2700, "height": 2000 },
+  { "id": 6, "name": "NEXUS Core", "theme": "The Singularity Inner Sanctum", "width": 2800, "height": 2200 }
+]

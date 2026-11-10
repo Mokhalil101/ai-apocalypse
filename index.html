@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="AI APOCALYPSE: SURVIVE THE MACHINES — Educational Survival Browser Game Powered by GDG Assiut.">
+  <meta name="theme-color" content="#101827">
+  <title>AI APOCALYPSE — SURVIVE THE MACHINES | Powered by GDG Assiut</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fullscreen WebGL / 2D Canvas -->
+  <canvas id="game-canvas"></canvas>
+
+  <!-- UI Overlays Container (Managed by UI controllers) -->
+  <div id="main-menu-overlay" class="main-menu-overlay"></div>
+  <div id="terminal-overlay" class="terminal-overlay hidden"></div>
+  <div id="inventory-overlay" class="inventory-overlay hidden"></div>
+  <div id="results-overlay" class="results-overlay hidden"></div>
+
+  <!-- Core & Data Architecture Scripts (Zero External Backend Dependencies) -->
+  <script src="src/core/EventManager.js"></script>
+  <script src="src/core/GameState.js"></script>
+  <script src="src/storage/SaveManager.js"></script>
+
+  <!-- Game Content & Configuration Databases -->
+  <script src="src/data/items.js"></script>
+  <script src="src/data/recipes.js"></script>
+  <script src="src/data/enemies.js"></script>
+  <script src="src/data/challenges.js"></script>
+  <script src="src/data/missions.js"></script>
+  <script src="src/data/levels.js"></script>
+
+  <!-- Progression & RPG Systems -->
+  <script src="src/progression/XPSystem.js"></script>
+  <script src="src/progression/AchievementManager.js"></script>
+
+  <!-- Player Architecture -->
+  <script src="src/player/PlayerStats.js"></script>
+  <script src="src/player/Inventory.js"></script>
+  <script src="src/player/PlayerController.js"></script>
+  <script src="src/player/Player.js"></script>
+
+  <!-- Hostile Machine AI & Bosses -->
+  <script src="src/enemies/EnemyAI.js"></script>
+  <script src="src/enemies/Enemy.js"></script>
+  <script src="src/enemies/BossController.js"></script>
+  <script src="src/enemies/EnemyManager.js"></script>
+
+  <!-- Survival, Crafting & Challenges -->
+  <script src="src/survival/CraftingSystem.js"></script>
+  <script src="src/challenges/ChallengeManager.js"></script>
+  <script src="src/missions/MissionManager.js"></script>
+  <script src="src/world/WorldManager.js"></script>
+
+  <!-- Audio Synthesis & User Interface -->
+  <script src="src/ui/AudioSystem.js"></script>
+  <script src="src/ui/HUD.js"></script>
+  <script src="src/ui/TerminalUI.js"></script>
+  <script src="src/ui/InventoryUI.js"></script>
+  <script src="src/ui/ResultsScreen.js"></script>
+  <script src="src/ui/MainMenu.js"></script>
+
+  <!-- Main Game Engine Loop -->
+  <script src="src/core/Game.js"></script>
+
+  <script>
+    // Boot sequence on DOM ready
+    window.addEventListener("DOMContentLoaded", () => {
+      console.log("%c AI APOCALYPSE: SURVIVE THE MACHINES ", "background: #101827; color: #4285F4; font-size: 16px; font-weight: bold; padding: 4px 8px; border: 1px solid #4285F4;");
+      console.log("%c Powered by GDG Assiut ", "background: #172337; color: #FBBC04; font-size: 12px; font-weight: bold; padding: 2px 6px;");
+      if (window.GameInstance) {
+        window.GameInstance.init();
+      }
+    });
+  </script>
+</body>
+</html>

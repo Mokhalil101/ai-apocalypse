@@ -1,0 +1,15 @@
+[
+  { "id": "craft_medkit_basic", "outputItemId": "medkit_basic", "outputQty": 1, "ingredients": [{ "itemId": "fabric", "qty": 2 }, { "itemId": "medical_supplies", "qty": 1 }] },
+  { "id": "craft_medkit_advanced", "outputItemId": "medkit_advanced", "outputQty": 1, "ingredients": [{ "itemId": "medkit_basic", "qty": 1 }, { "itemId": "medical_supplies", "qty": 2 }, { "itemId": "nanoweave_fiber", "qty": 1 }] },
+  { "id": "craft_energy_cell", "outputItemId": "energy_cell", "outputQty": 1, "ingredients": [{ "itemId": "battery_pack", "qty": 1 }, { "itemId": "electronic_parts", "qty": 2 }] },
+  { "id": "craft_hypercell", "outputItemId": "energy_hypercell", "outputQty": 1, "ingredients": [{ "itemId": "energy_cell", "qty": 2 }, { "itemId": "battery_pack", "qty": 2 }, { "itemId": "quantum_core_shard", "qty": 1 }] },
+  { "id": "craft_adrenaline", "outputItemId": "adrenaline_shot", "outputQty": 1, "ingredients": [{ "itemId": "medical_supplies", "qty": 1 }, { "itemId": "clean_water", "qty": 1 }] },
+  { "id": "craft_armor_vest", "outputItemId": "armor_vest", "outputQty": 1, "ingredients": [{ "itemId": "metal_scrap", "qty": 3 }, { "itemId": "protective_material", "qty": 2 }] },
+  { "id": "craft_armor_nanoweave", "outputItemId": "armor_nanoweave", "outputQty": 1, "ingredients": [{ "itemId": "armor_vest", "qty": 1 }, { "itemId": "nanoweave_fiber", "qty": 3 }, { "itemId": "electronic_parts", "qty": 3 }] },
+  { "id": "craft_repair_tool", "outputItemId": "tool_repair", "outputQty": 1, "ingredients": [{ "itemId": "metal_scrap", "qty": 2 }, { "itemId": "electronic_parts", "qty": 1 }] },
+  { "id": "craft_scanner", "outputItemId": "tool_scanner", "outputQty": 1, "ingredients": [{ "itemId": "battery_pack", "qty": 1 }, { "itemId": "data_chip", "qty": 1 }, { "itemId": "electronic_parts", "qty": 2 }] },
+  { "id": "craft_hack_key", "outputItemId": "tool_hack_key", "outputQty": 1, "ingredients": [{ "itemId": "electronic_parts", "qty": 2 }, { "itemId": "data_chip", "qty": 1 }] },
+  { "id": "craft_weapon_emp", "outputItemId": "weapon_emp", "outputQty": 1, "ingredients": [{ "itemId": "battery_pack", "qty": 2 }, { "itemId": "electronic_parts", "qty": 3 }, { "itemId": "metal_scrap", "qty": 2 }] },
+  { "id": "craft_weapon_pulse", "outputItemId": "weapon_pulse_rifle", "outputQty": 1, "ingredients": [{ "itemId": "metal_scrap", "qty": 4 }, { "itemId": "electronic_parts", "qty": 4 }, { "itemId": "battery_pack", "qty": 2 }] },
+  { "id": "craft_weapon_shock", "outputItemId": "weapon_shock_tool", "outputQty": 1, "ingredients": [{ "itemId": "metal_scrap", "qty": 3 }, { "itemId": "electronic_parts", "qty": 2 }, { "itemId": "battery_pack", "qty": 1 }] }
+]
